@@ -19,3 +19,18 @@ The number is 100
 Enter a number: 102
 The number is larger than 100
 """
+import math
+import os
+print("\n\n     Enter primary number")
+x = input()
+x = int(x)
+
+
+os.system('cls')
+if (x > 100):
+    print(f"\n{x} is greater than 100")
+    input()
+
+if (x < 100):
+    print(f"\n{y} is less than 100")
+    input()

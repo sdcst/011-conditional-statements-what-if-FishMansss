@@ -31,3 +31,26 @@ Enter a number: 10000
 
 
 """
+import math
+import os 
+
+print("\n\n     Enter a positive number")
+x = input()
+x = int(x)
+os.system('cls')
+
+
+if (10 < x < 101):
+    print("\n   1")
+    input()
+if (0 < x < 101 ):
+    print("\n   0")
+    input()
+if (100 < x < 1001):
+    print("\n   2")
+    input()
+if (x > 1000):
+    print("\n   3")
+    input()
+if (x < 0): 
+    print("that is not positive")
