@@ -23,3 +23,24 @@
  Enter password: password
  Access denied
 """
+import os
+
+print("\n\n     Enter a username:")
+x = input()
+x = str(x)
+os.system('cls')
+
+if (x == "admin"):
+    print("\n       Enter a password:")
+    y = input()
+    y = str(y)
+
+    if (y == "12345password"):
+        os.system('cls')
+        print("\n\n     Access Granted")
+    else:
+        print("access denied")
+        input()
+else:
+    print("\n       invalid user")
+    input()

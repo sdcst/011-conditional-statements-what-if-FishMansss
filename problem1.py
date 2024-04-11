@@ -25,3 +25,5 @@ if (x % 2 == 0):
 if (x % 2 == 1):
     print("this number is odd")
     input()
+
+    

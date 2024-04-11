@@ -33,3 +33,61 @@ that is an obtuse triangle
 
 
 """
+import math
+import os
+
+print("\n\n     Enter side 'a'")
+a = input()
+a = float(a)
+print("\n       Enter side 'b'")
+b = input()
+b = float(b)
+print("\n       Enter side 'c'")
+c = input()
+c = float(c)
+os.system('cls')
+if (a == b == c):
+    print("equilateral")
+    input()
+if (a>b>c):
+    l = a
+    hyp = (b**2 + c**2)**.5
+if (a>c>b):
+    l = a
+    hyp = (b**2 + c**2)**.5
+if (b>a>c):
+    l = b
+    hyp = (a**2 + c**2)**.5
+if (b>c>a):
+    l = b
+    hyp = (a**2 + c**2)**.5
+if (c>b>a):
+    l = c
+    hyp = (a**2 + b**2)**.5
+if (c>a>b):
+    l = c
+    hyp = (a**2 + b**2)**.5
+os.system('cls')
+
+if (l + l *.02 )
+##where i left off
+
+
+'''
+if (hyp > a + a * 0.2):
+    print("obtuse")
+if (hyp < a - a * 0.2):
+    print("accute")
+if (hyp > b + b * 0.2):
+    print("obtuse")
+if (hyp < b - b * 0.2):
+    print("accute")
+if (hyp > c + c * 0.2):
+    print("obtuse")
+if (hyp < c - c * 0.2):
+    print("accute")
+if (hyp ):
+'''
+
+print(f"your triangle is {hyp}")
+input()

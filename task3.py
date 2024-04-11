@@ -40,13 +40,13 @@ x = int(x)
 os.system('cls')
 
 
-if (10 < x < 101):
+if (9 < x < 101):
     print("\n   1")
     input()
 if (0 < x < 101 ):
     print("\n   0")
     input()
-if (100 < x < 1001):
+if (99 < x < 1001):
     print("\n   2")
     input()
 if (x > 1000):
